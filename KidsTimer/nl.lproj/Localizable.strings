@@ -1,0 +1,15 @@
+/* textToContinueEnterYour */
+" To continue, enter\n your " = " Voer uw geboortejaar\n in om ";
+
+/* textBirthYear */
+"birth year:" = "door te gaan:";
+
+/* buyTextButton */
+"Buy" = "Kopen";
+
+/* restoreTextButton */
+"restore" = "herstellen";
+
+/* textWeDoNotStoreThisData */
+"We do not store this data" = "We slaan deze gegevens niet op";
+

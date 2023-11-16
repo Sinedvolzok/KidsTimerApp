@@ -1,0 +1,15 @@
+/* textToContinueEnterYour */
+" To continue, enter\n your " = " Um fortzufahren,\n geben Sie Ihr\n ";
+
+/* textBirthYear */
+"birth year:" = "Geburtsjahr ein:";
+
+/* buyTextButton */
+"Buy" = "Kaufen";
+
+/* restoreTextButton */
+"restore" = "wiederherstellen";
+
+/* textWeDoNotStoreThisData */
+"We do not store this data" = "Wir speichern diese Daten nicht";
+

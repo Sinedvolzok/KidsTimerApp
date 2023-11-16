@@ -1,0 +1,15 @@
+/* textToContinueEnterYour */
+" To continue, enter\n your " = " 계속하려면 출생 연도를\n 입력하십시오 :";
+
+/* textBirthYear */
+"birth year:" = "";
+
+/* buyTextButton */
+"Buy" = "사다";
+
+/* restoreTextButton */
+"restore" = "복원";
+
+/* textWeDoNotStoreThisData */
+"We do not store this data" = "이 데이터는 저장하지 않습니다";
+

@@ -1,0 +1,6 @@
+framework module Pods_KidsTimer {
+  umbrella header "Pods-KidsTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

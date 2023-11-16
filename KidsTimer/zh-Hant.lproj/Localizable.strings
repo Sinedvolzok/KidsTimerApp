@@ -1,0 +1,15 @@
+/* textToContinueEnterYour */
+" To continue, enter\n your " = "要繼續，請輸入您的出生年份：";
+
+/* textBirthYear */
+"birth year:" = "";
+
+/* buyTextButton */
+"Buy" = "購買";
+
+/* restoreTextButton */
+"restore" = "恢復";
+
+/* textWeDoNotStoreThisData */
+"We do not store this data" = "我們不存儲這些數據";
+

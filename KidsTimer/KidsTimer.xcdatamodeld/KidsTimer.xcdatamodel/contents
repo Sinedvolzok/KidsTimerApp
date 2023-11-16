@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18G103" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AnalyticsUseTimer" representedClassName="AnalyticsUseTimer" syncable="YES" codeGenerationType="class">
+        <attribute name="secsess" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="starts" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="TrialTime" representedClassName="TrialTime" syncable="YES" codeGenerationType="class">
+        <attribute name="dateEndTrial" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="TrialTime" positionX="-63" positionY="-18" width="128" height="58"/>
+        <element name="AnalyticsUseTimer" positionX="-63" positionY="-9" width="128" height="73"/>
+    </elements>
+</model>

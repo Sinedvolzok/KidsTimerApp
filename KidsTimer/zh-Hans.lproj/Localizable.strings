@@ -1,0 +1,15 @@
+/* textToContinueEnterYour */
+" To continue, enter\n your " = "要继续，请输入您的出生年份：";
+
+/* textBirthYear */
+"birth year:" = "";
+
+/* buyTextButton */
+"Buy" = "购买";
+
+/* restoreTextButton */
+"restore" = "恢复";
+
+/* textWeDoNotStoreThisData */
+"We do not store this data" = "我们不存储这些数据";
+

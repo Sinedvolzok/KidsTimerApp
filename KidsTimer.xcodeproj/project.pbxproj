@@ -1,0 +1,848 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C74A6492C8FD0FA689A61A5 /* Pods_KidsTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ACBA92D63E2F132CDB6F4E1 /* Pods_KidsTimer.framework */; };
+		534585F823D4DFAC008F255F /* ProductNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 534585F723D4DFAC008F255F /* ProductNumber.swift */; };
+		5352A5B723F57E3A00C2BE3D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5352A5B623F57E3900C2BE3D /* iAd.framework */; };
+		539B11CA2886F12000B5613C /* EndTimeMusicSoundKing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11A32886F11B00B5613C /* EndTimeMusicSoundKing.mp3 */; };
+		539B11CB2886F12000B5613C /* TapNumberSoundBoom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11A42886F11B00B5613C /* TapNumberSoundBoom.mp3 */; };
+		539B11CC2886F12000B5613C /* PlayTimerBGSoundVideoGames.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11A52886F11C00B5613C /* PlayTimerBGSoundVideoGames.mp3 */; };
+		539B11CD2886F12000B5613C /* YEAH.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11A62886F11C00B5613C /* YEAH.mp3 */; };
+		539B11CE2886F12000B5613C /* EndTimeMusicSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11A72886F11C00B5613C /* EndTimeMusicSound.mp3 */; };
+		539B11CF2886F12100B5613C /* ResetRainSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11A82886F11C00B5613C /* ResetRainSound.mp3 */; };
+		539B11D02886F12100B5613C /* YAMN.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11A92886F11C00B5613C /* YAMN.mp3 */; };
+		539B11D12886F12100B5613C /* HMM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11AA2886F11C00B5613C /* HMM.mp3 */; };
+		539B11D22886F12100B5613C /* PlaySunSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11AB2886F11C00B5613C /* PlaySunSound.mp3 */; };
+		539B11D32886F12100B5613C /* EndMinuteMusicSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11AC2886F11C00B5613C /* EndMinuteMusicSound.mp3 */; };
+		539B11D42886F12100B5613C /* ResetCloudSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11AD2886F11C00B5613C /* ResetCloudSound.mp3 */; };
+		539B11D52886F12100B5613C /* ToothBrashBGSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11AE2886F11D00B5613C /* ToothBrashBGSound.mp3 */; };
+		539B11D62886F12100B5613C /* PlayTimerBGSoundBees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11AF2886F11D00B5613C /* PlayTimerBGSoundBees.mp3 */; };
+		539B11D72886F12100B5613C /* EndTimeMusicSoundSea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B02886F11D00B5613C /* EndTimeMusicSoundSea.mp3 */; };
+		539B11D82886F12100B5613C /* LaunchFunSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B12886F11D00B5613C /* LaunchFunSound.mp3 */; };
+		539B11D92886F12100B5613C /* EndTimeBoom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B22886F11D00B5613C /* EndTimeBoom.mp3 */; };
+		539B11DA2886F12100B5613C /* EndMinuteMusicSoundSea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B32886F11D00B5613C /* EndMinuteMusicSoundSea.mp3 */; };
+		539B11DB2886F12100B5613C /* EndMinuteMusicSoundBoom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B42886F11D00B5613C /* EndMinuteMusicSoundBoom.mp3 */; };
+		539B11DC2886F12100B5613C /* EndTimeMusicSoundBoom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B52886F11D00B5613C /* EndTimeMusicSoundBoom.mp3 */; };
+		539B11DD2886F12100B5613C /* introBGSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B62886F11D00B5613C /* introBGSound.mp3 */; };
+		539B11DE2886F12100B5613C /* WashHandsBGSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B72886F11D00B5613C /* WashHandsBGSound.mp3 */; };
+		539B11DF2886F12100B5613C /* PlayTimerBGSoundToothBrash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B82886F11E00B5613C /* PlayTimerBGSoundToothBrash.mp3 */; };
+		539B11E02886F12100B5613C /* MinuteLessSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11B92886F11E00B5613C /* MinuteLessSound.mp3 */; };
+		539B11E12886F12100B5613C /* EndMinuteMusicSoundVideoGames.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11BA2886F11E00B5613C /* EndMinuteMusicSoundVideoGames.mp3 */; };
+		539B11E22886F12100B5613C /* EndTimeMusicSoundBees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11BB2886F11E00B5613C /* EndTimeMusicSoundBees.mp3 */; };
+		539B11E32886F12100B5613C /* EndMinuteMusicSoundMidnight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11BC2886F11E00B5613C /* EndMinuteMusicSoundMidnight.mp3 */; };
+		539B11E42886F12100B5613C /* EndTimeMusicSoundMidnight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11BD2886F11E00B5613C /* EndTimeMusicSoundMidnight.mp3 */; };
+		539B11E52886F12100B5613C /* PlayTimerBGSoundMidnight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11BE2886F11E00B5613C /* PlayTimerBGSoundMidnight.mp3 */; };
+		539B11E62886F12100B5613C /* EndTimeMusicSoundVideoGames.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11BF2886F11E00B5613C /* EndTimeMusicSoundVideoGames.mp3 */; };
+		539B11E72886F12100B5613C /* PlayTimerBGSoundSea.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C02886F11E00B5613C /* PlayTimerBGSoundSea.mp3 */; };
+		539B11E82886F12100B5613C /* ResetBugel.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C12886F11F00B5613C /* ResetBugel.mp3 */; };
+		539B11E92886F12100B5613C /* RainLight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C22886F11F00B5613C /* RainLight.mp3 */; };
+		539B11EA2886F12100B5613C /* ResetSorokoput.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C32886F11F00B5613C /* ResetSorokoput.mp3 */; };
+		539B11EB2886F12100B5613C /* PlayTimerBGSoundKing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C42886F11F00B5613C /* PlayTimerBGSoundKing.mp3 */; };
+		539B11EC2886F12100B5613C /* PlayTimerBGSoundBoom.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C52886F11F00B5613C /* PlayTimerBGSoundBoom.mp3 */; };
+		539B11ED2886F12100B5613C /* PlayTimerBGSoundRainbow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C62886F11F00B5613C /* PlayTimerBGSoundRainbow.mp3 */; };
+		539B11EE2886F12100B5613C /* EndMinuteMusicSoundBees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C72886F12000B5613C /* EndMinuteMusicSoundBees.mp3 */; };
+		539B11EF2886F12100B5613C /* TapNumberSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C82886F12000B5613C /* TapNumberSound.mp3 */; };
+		539B11F02886F12100B5613C /* EndMinuteMusicSoundKing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 539B11C92886F12000B5613C /* EndMinuteMusicSoundKing.mp3 */; };
+		539BAC6123D83DEE00621873 /* UserHandleControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539BAC6023D83DEE00621873 /* UserHandleControl.swift */; };
+		539D6909241D1CAF004A37F5 /* GlassesRainEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 539D6908241D1CAF004A37F5 /* GlassesRainEmitterView.swift */; };
+		53BD5A2923D374B400E8CA19 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BD5A2823D374B400E8CA19 /* MenuViewController.swift */; };
+		53BD5A2B23D3918F00E8CA19 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53BD5A2A23D3918F00E8CA19 /* ParentViewController.swift */; };
+		9224138922D3551D0028E1B5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9224138722D3551D0028E1B5 /* Localizable.strings */; };
+		9231FEE622DEF6F8000196CE /* PaymentStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231FEE522DEF6F8000196CE /* PaymentStruct.swift */; };
+		9231FEE822DF0DF8000196CE /* Payment+TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9231FEE722DF0DF8000196CE /* Payment+TVC.swift */; };
+		9232C56E2203830E001DA61A /* TimerIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9232C56D2203830E001DA61A /* TimerIndicatorView.swift */; };
+		924EFF1721FB0B7E001F0346 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EFF1621FB0B7E001F0346 /* AppDelegate.swift */; };
+		924EFF1921FB0B7E001F0346 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 924EFF1821FB0B7E001F0346 /* TimerViewController.swift */; };
+		924EFF2121FB0B85001F0346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 924EFF2021FB0B85001F0346 /* Assets.xcassets */; };
+		92595FA52305BDE800C9ABE0 /* Control+TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92595FA42305BDE800C9ABE0 /* Control+TVC.swift */; };
+		92595FA72305CD0800C9ABE0 /* +TVCHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92595FA62305CD0800C9ABE0 /* +TVCHandlers.swift */; };
+		92595FA923068BFA00C9ABE0 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 92595FA823068BFA00C9ABE0 /* MyParticle.sks */; };
+		92595FAB230690BC00C9ABE0 /* CloudsEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92595FAA230690BC00C9ABE0 /* CloudsEmitterView.swift */; };
+		92595FAD2307070F00C9ABE0 /* StarsEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92595FAC2307070F00C9ABE0 /* StarsEmitterView.swift */; };
+		925A399F22DCBC19008B0FBA /* Launch+TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A399E22DCBC19008B0FBA /* Launch+TVC.swift */; };
+		925A39A122DCC671008B0FBA /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A39A022DCC671008B0FBA /* CircleView.swift */; };
+		925A39A322DCC6E7008B0FBA /* SticksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A39A222DCC6E7008B0FBA /* SticksView.swift */; };
+		925A39A522DCC74F008B0FBA /* UIV+Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925A39A422DCC74F008B0FBA /* UIV+Anchor.swift */; };
+		926D8F3B22C6230C00D1CF5D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 926D8F3A22C6230C00D1CF5D /* StoreKit.framework */; };
+		926D8F3D22C6244400D1CF5D /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926D8F3C22C6244400D1CF5D /* IAPProduct.swift */; };
+		926D8F3F22C6257E00D1CF5D /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 926D8F3E22C6257E00D1CF5D /* IAPManager.swift */; };
+		926D8F4222C724A000D1CF5D /* AppleIncRootCertificate.cer in Resources */ = {isa = PBXBuildFile; fileRef = 926D8F4122C7246D00D1CF5D /* AppleIncRootCertificate.cer */; };
+		9272107523BF6D7F0071933B /* SubscriptionPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9272107423BF6D7F0071933B /* SubscriptionPages.swift */; };
+		9282C77B231ECDCC007D66B0 /* ScrollButtons+TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9282C77A231ECDCA007D66B0 /* ScrollButtons+TVC.swift */; };
+		9290DE2622C7A67900D4385E /* pkcs7_union_accessors.c in Sources */ = {isa = PBXBuildFile; fileRef = 9290DE2522C7A67900D4385E /* pkcs7_union_accessors.c */; };
+		9290DE2822C7A6B000D4385E /* ReceiptValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9290DE2722C7A6B000D4385E /* ReceiptValidator.swift */; };
+		929A1EAF23C5E85F0037E1A0 /* SpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929A1EAE23C5E85E0037E1A0 /* SpinnerViewController.swift */; };
+		929CF6D723C0F7320062A931 /* KidsTimer.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 929CF6D623C0F7310062A931 /* KidsTimer.xcdatamodel */; };
+		929E2F8623043B1A0031CF16 /* Buttons+TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E2F8523043B1A0031CF16 /* Buttons+TVC.swift */; };
+		929E2F8823043E740031CF16 /* Styles+TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E2F8723043E730031CF16 /* Styles+TVC.swift */; };
+		929E2F8A230455100031CF16 /* Tutorial+TVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E2F89230455100031CF16 /* Tutorial+TVC.swift */; };
+		929E2F8C2305237B0031CF16 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929E2F8B2305237A0031CF16 /* Views.swift */; };
+		92AA96B123B8C2A600F9728F /* SubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92AA96B023B8C2A600F9728F /* SubscriptionViewController.swift */; };
+		92BF95A323B382C200AF7F45 /* Pages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BF95A223B382C200AF7F45 /* Pages.swift */; };
+		92BF95A523B382E900AF7F45 /* PageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BF95A423B382E900AF7F45 /* PageCell.swift */; };
+		92BF95A723B3835900AF7F45 /* SwipingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BF95A623B3835900AF7F45 /* SwipingController.swift */; };
+		92BF95AA23B3842800AF7F45 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BF95A923B3842800AF7F45 /* Notifications.swift */; };
+		92BF95B423B535A300AF7F45 /* PlayTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92BF95B323B535A200AF7F45 /* PlayTimerViewController.swift */; };
+		92C1AB2323C4D0AE0006297B /* DateDifference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C1AB2223C4D0AE0006297B /* DateDifference.swift */; };
+		92C1AB2523C4D1860006297B /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C1AB2423C4D1860006297B /* ModelController.swift */; };
+		92C5F77C22BE188300D5C3F1 /* CandyRainEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C5F77B22BE188200D5C3F1 /* CandyRainEmitterView.swift */; };
+		92E2AAB8220A25A900CDBE8F /* porkys.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92E2AAB7220A25A800CDBE8F /* porkys.regular.ttf */; };
+		92F237612320CD4C00C8D1C5 /* BeesEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F237602320CD4C00C8D1C5 /* BeesEmitterView.swift */; };
+		92F2376B2322D01F00C8D1C5 /* ShipsEmitterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92F2376A2322D01F00C8D1C5 /* ShipsEmitterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		12EB9350E75D8987A6410FD6 /* Pods-KidsTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsTimer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KidsTimer/Pods-KidsTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		534585F723D4DFAC008F255F /* ProductNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductNumber.swift; sourceTree = "<group>"; };
+		5352A5B623F57E3900C2BE3D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		539B11A32886F11B00B5613C /* EndTimeMusicSoundKing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndTimeMusicSoundKing.mp3; path = "../../../KidsTimerMusic&Sounds/EndTimeMusicSoundKing.mp3"; sourceTree = "<group>"; };
+		539B11A42886F11B00B5613C /* TapNumberSoundBoom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TapNumberSoundBoom.mp3; path = "../../../KidsTimerMusic&Sounds/TapNumberSoundBoom.mp3"; sourceTree = "<group>"; };
+		539B11A52886F11C00B5613C /* PlayTimerBGSoundVideoGames.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PlayTimerBGSoundVideoGames.mp3; path = "../../../KidsTimerMusic&Sounds/PlayTimerBGSoundVideoGames.mp3"; sourceTree = "<group>"; };
+		539B11A62886F11C00B5613C /* YEAH.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = YEAH.mp3; path = "../../../KidsTimerMusic&Sounds/YEAH.mp3"; sourceTree = "<group>"; };
+		539B11A72886F11C00B5613C /* EndTimeMusicSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndTimeMusicSound.mp3; path = "../../../KidsTimerMusic&Sounds/EndTimeMusicSound.mp3"; sourceTree = "<group>"; };
+		539B11A82886F11C00B5613C /* ResetRainSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ResetRainSound.mp3; path = "../../../KidsTimerMusic&Sounds/ResetRainSound.mp3"; sourceTree = "<group>"; };
+		539B11A92886F11C00B5613C /* YAMN.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = YAMN.mp3; path = "../../../KidsTimerMusic&Sounds/YAMN.mp3"; sourceTree = "<group>"; };
+		539B11AA2886F11C00B5613C /* HMM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HMM.mp3; path = "../../../KidsTimerMusic&Sounds/HMM.mp3"; sourceTree = "<group>"; };
+		539B11AB2886F11C00B5613C /* PlaySunSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PlaySunSound.mp3; path = "../../../KidsTimerMusic&Sounds/PlaySunSound.mp3"; sourceTree = "<group>"; };
+		539B11AC2886F11C00B5613C /* EndMinuteMusicSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndMinuteMusicSound.mp3; path = "../../../KidsTimerMusic&Sounds/EndMinuteMusicSound.mp3"; sourceTree = "<group>"; };
+		539B11AD2886F11C00B5613C /* ResetCloudSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ResetCloudSound.mp3; path = "../../../KidsTimerMusic&Sounds/ResetCloudSound.mp3"; sourceTree = "<group>"; };
+		539B11AE2886F11D00B5613C /* ToothBrashBGSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ToothBrashBGSound.mp3; path = "../../../KidsTimerMusic&Sounds/ToothBrashBGSound.mp3"; sourceTree = "<group>"; };
+		539B11AF2886F11D00B5613C /* PlayTimerBGSoundBees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PlayTimerBGSoundBees.mp3; path = "../../../KidsTimerMusic&Sounds/PlayTimerBGSoundBees.mp3"; sourceTree = "<group>"; };
+		539B11B02886F11D00B5613C /* EndTimeMusicSoundSea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndTimeMusicSoundSea.mp3; path = "../../../KidsTimerMusic&Sounds/EndTimeMusicSoundSea.mp3"; sourceTree = "<group>"; };
+		539B11B12886F11D00B5613C /* LaunchFunSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = LaunchFunSound.mp3; path = "../../../KidsTimerMusic&Sounds/LaunchFunSound.mp3"; sourceTree = "<group>"; };
+		539B11B22886F11D00B5613C /* EndTimeBoom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndTimeBoom.mp3; path = "../../../KidsTimerMusic&Sounds/EndTimeBoom.mp3"; sourceTree = "<group>"; };
+		539B11B32886F11D00B5613C /* EndMinuteMusicSoundSea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndMinuteMusicSoundSea.mp3; path = "../../../KidsTimerMusic&Sounds/EndMinuteMusicSoundSea.mp3"; sourceTree = "<group>"; };
+		539B11B42886F11D00B5613C /* EndMinuteMusicSoundBoom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndMinuteMusicSoundBoom.mp3; path = "../../../KidsTimerMusic&Sounds/EndMinuteMusicSoundBoom.mp3"; sourceTree = "<group>"; };
+		539B11B52886F11D00B5613C /* EndTimeMusicSoundBoom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndTimeMusicSoundBoom.mp3; path = "../../../KidsTimerMusic&Sounds/EndTimeMusicSoundBoom.mp3"; sourceTree = "<group>"; };
+		539B11B62886F11D00B5613C /* introBGSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = introBGSound.mp3; path = "../../../KidsTimerMusic&Sounds/introBGSound.mp3"; sourceTree = "<group>"; };
+		539B11B72886F11D00B5613C /* WashHandsBGSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = WashHandsBGSound.mp3; path = "../../../KidsTimerMusic&Sounds/WashHandsBGSound.mp3"; sourceTree = "<group>"; };
+		539B11B82886F11E00B5613C /* PlayTimerBGSoundToothBrash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PlayTimerBGSoundToothBrash.mp3; path = "../../../KidsTimerMusic&Sounds/PlayTimerBGSoundToothBrash.mp3"; sourceTree = "<group>"; };
+		539B11B92886F11E00B5613C /* MinuteLessSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = MinuteLessSound.mp3; path = "../../../KidsTimerMusic&Sounds/MinuteLessSound.mp3"; sourceTree = "<group>"; };
+		539B11BA2886F11E00B5613C /* EndMinuteMusicSoundVideoGames.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndMinuteMusicSoundVideoGames.mp3; path = "../../../KidsTimerMusic&Sounds/EndMinuteMusicSoundVideoGames.mp3"; sourceTree = "<group>"; };
+		539B11BB2886F11E00B5613C /* EndTimeMusicSoundBees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndTimeMusicSoundBees.mp3; path = "../../../KidsTimerMusic&Sounds/EndTimeMusicSoundBees.mp3"; sourceTree = "<group>"; };
+		539B11BC2886F11E00B5613C /* EndMinuteMusicSoundMidnight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndMinuteMusicSoundMidnight.mp3; path = "../../../KidsTimerMusic&Sounds/EndMinuteMusicSoundMidnight.mp3"; sourceTree = "<group>"; };
+		539B11BD2886F11E00B5613C /* EndTimeMusicSoundMidnight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndTimeMusicSoundMidnight.mp3; path = "../../../KidsTimerMusic&Sounds/EndTimeMusicSoundMidnight.mp3"; sourceTree = "<group>"; };
+		539B11BE2886F11E00B5613C /* PlayTimerBGSoundMidnight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PlayTimerBGSoundMidnight.mp3; path = "../../../KidsTimerMusic&Sounds/PlayTimerBGSoundMidnight.mp3"; sourceTree = "<group>"; };
+		539B11BF2886F11E00B5613C /* EndTimeMusicSoundVideoGames.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndTimeMusicSoundVideoGames.mp3; path = "../../../KidsTimerMusic&Sounds/EndTimeMusicSoundVideoGames.mp3"; sourceTree = "<group>"; };
+		539B11C02886F11E00B5613C /* PlayTimerBGSoundSea.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PlayTimerBGSoundSea.mp3; path = "../../../KidsTimerMusic&Sounds/PlayTimerBGSoundSea.mp3"; sourceTree = "<group>"; };
+		539B11C12886F11F00B5613C /* ResetBugel.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ResetBugel.mp3; path = "../../../KidsTimerMusic&Sounds/ResetBugel.mp3"; sourceTree = "<group>"; };
+		539B11C22886F11F00B5613C /* RainLight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = RainLight.mp3; path = "../../../KidsTimerMusic&Sounds/RainLight.mp3"; sourceTree = "<group>"; };
+		539B11C32886F11F00B5613C /* ResetSorokoput.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ResetSorokoput.mp3; path = "../../../KidsTimerMusic&Sounds/ResetSorokoput.mp3"; sourceTree = "<group>"; };
+		539B11C42886F11F00B5613C /* PlayTimerBGSoundKing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PlayTimerBGSoundKing.mp3; path = "../../../KidsTimerMusic&Sounds/PlayTimerBGSoundKing.mp3"; sourceTree = "<group>"; };
+		539B11C52886F11F00B5613C /* PlayTimerBGSoundBoom.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PlayTimerBGSoundBoom.mp3; path = "../../../KidsTimerMusic&Sounds/PlayTimerBGSoundBoom.mp3"; sourceTree = "<group>"; };
+		539B11C62886F11F00B5613C /* PlayTimerBGSoundRainbow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = PlayTimerBGSoundRainbow.mp3; path = "../../../KidsTimerMusic&Sounds/PlayTimerBGSoundRainbow.mp3"; sourceTree = "<group>"; };
+		539B11C72886F12000B5613C /* EndMinuteMusicSoundBees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndMinuteMusicSoundBees.mp3; path = "../../../KidsTimerMusic&Sounds/EndMinuteMusicSoundBees.mp3"; sourceTree = "<group>"; };
+		539B11C82886F12000B5613C /* TapNumberSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TapNumberSound.mp3; path = "../../../KidsTimerMusic&Sounds/TapNumberSound.mp3"; sourceTree = "<group>"; };
+		539B11C92886F12000B5613C /* EndMinuteMusicSoundKing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EndMinuteMusicSoundKing.mp3; path = "../../../KidsTimerMusic&Sounds/EndMinuteMusicSoundKing.mp3"; sourceTree = "<group>"; };
+		539BAC6023D83DEE00621873 /* UserHandleControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserHandleControl.swift; sourceTree = "<group>"; };
+		539D6908241D1CAF004A37F5 /* GlassesRainEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassesRainEmitterView.swift; sourceTree = "<group>"; };
+		53BD5A2823D374B400E8CA19 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		53BD5A2A23D3918F00E8CA19 /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		81A5A381F0FE0CD624EF2AF6 /* Pods-KidsTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KidsTimer.release.xcconfig"; path = "Pods/Target Support Files/Pods-KidsTimer/Pods-KidsTimer.release.xcconfig"; sourceTree = "<group>"; };
+		920B4E1F23CA1192008A86EC /* KidsTimer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KidsTimer.entitlements; sourceTree = "<group>"; };
+		921A618222D46C3B00C851E8 /* nl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nl; path = nl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9224138822D3551D0028E1B5 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9224138C22D3B2340028E1B5 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9231FEE522DEF6F8000196CE /* PaymentStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PaymentStruct.swift; path = ../PaymentStruct.swift; sourceTree = "<group>"; };
+		9231FEE722DF0DF8000196CE /* Payment+TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Payment+TVC.swift"; path = "../Payment+TVC.swift"; sourceTree = "<group>"; };
+		9232C56D2203830E001DA61A /* TimerIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerIndicatorView.swift; sourceTree = "<group>"; };
+		924EFF1321FB0B7E001F0346 /* KidsTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		924EFF1621FB0B7E001F0346 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		924EFF1821FB0B7E001F0346 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		924EFF2021FB0B85001F0346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		924EFF2521FB0B85001F0346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92595FA42305BDE800C9ABE0 /* Control+TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Control+TVC.swift"; sourceTree = "<group>"; };
+		92595FA62305CD0800C9ABE0 /* +TVCHandlers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+TVCHandlers.swift"; sourceTree = "<group>"; };
+		92595FA823068BFA00C9ABE0 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		92595FAA230690BC00C9ABE0 /* CloudsEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudsEmitterView.swift; path = ../CloudsEmitterView.swift; sourceTree = "<group>"; };
+		92595FAC2307070F00C9ABE0 /* StarsEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StarsEmitterView.swift; path = ../StarsEmitterView.swift; sourceTree = "<group>"; };
+		925A399E22DCBC19008B0FBA /* Launch+TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Launch+TVC.swift"; sourceTree = "<group>"; };
+		925A39A022DCC671008B0FBA /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		925A39A222DCC6E7008B0FBA /* SticksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SticksView.swift; sourceTree = "<group>"; };
+		925A39A422DCC74F008B0FBA /* UIV+Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIV+Anchor.swift"; sourceTree = "<group>"; };
+		926D8F3A22C6230C00D1CF5D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		926D8F3C22C6244400D1CF5D /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IAPProduct.swift; path = ../IAPProduct.swift; sourceTree = "<group>"; };
+		926D8F3E22C6257E00D1CF5D /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = IAPManager.swift; path = ../IAPManager.swift; sourceTree = "<group>"; };
+		926D8F4122C7246D00D1CF5D /* AppleIncRootCertificate.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AppleIncRootCertificate.cer; sourceTree = "<group>"; };
+		9272107423BF6D7F0071933B /* SubscriptionPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPages.swift; sourceTree = "<group>"; };
+		9282C77A231ECDCA007D66B0 /* ScrollButtons+TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ScrollButtons+TVC.swift"; sourceTree = "<group>"; };
+		9290DE2122C7A47000D4385E /* KidsTimer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KidsTimer-Bridging-Header.h"; sourceTree = "<group>"; };
+		9290DE2422C7A67900D4385E /* pkcs7_union_accessors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7_union_accessors.h; sourceTree = "<group>"; };
+		9290DE2522C7A67900D4385E /* pkcs7_union_accessors.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pkcs7_union_accessors.c; sourceTree = "<group>"; };
+		9290DE2722C7A6B000D4385E /* ReceiptValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceiptValidator.swift; sourceTree = "<group>"; };
+		929A1EAE23C5E85E0037E1A0 /* SpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerViewController.swift; sourceTree = "<group>"; };
+		929CF6D623C0F7310062A931 /* KidsTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; name = KidsTimer.xcdatamodel; path = KidsTimer.xcdatamodeld/KidsTimer.xcdatamodel; sourceTree = "<group>"; };
+		929E2F8523043B1A0031CF16 /* Buttons+TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Buttons+TVC.swift"; sourceTree = "<group>"; };
+		929E2F8723043E730031CF16 /* Styles+TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Styles+TVC.swift"; sourceTree = "<group>"; };
+		929E2F89230455100031CF16 /* Tutorial+TVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tutorial+TVC.swift"; sourceTree = "<group>"; };
+		929E2F8B2305237A0031CF16 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		92AA96B023B8C2A600F9728F /* SubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionViewController.swift; sourceTree = "<group>"; };
+		92BF95A223B382C200AF7F45 /* Pages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pages.swift; sourceTree = "<group>"; };
+		92BF95A423B382E900AF7F45 /* PageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCell.swift; sourceTree = "<group>"; };
+		92BF95A623B3835900AF7F45 /* SwipingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipingController.swift; sourceTree = "<group>"; };
+		92BF95A923B3842800AF7F45 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		92BF95B323B535A200AF7F45 /* PlayTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayTimerViewController.swift; sourceTree = "<group>"; };
+		92C1AB2223C4D0AE0006297B /* DateDifference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateDifference.swift; sourceTree = "<group>"; };
+		92C1AB2423C4D1860006297B /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		92C5F77B22BE188200D5C3F1 /* CandyRainEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CandyRainEmitterView.swift; path = KidsTimer.xcodeproj/../CandyRainEmitterView.swift; sourceTree = SOURCE_ROOT; };
+		92E2AAB7220A25A800CDBE8F /* porkys.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = porkys.regular.ttf; sourceTree = "<group>"; };
+		92EAE2E522D7829E0063AD2E /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92EAE2E622D782C00063AD2E /* es-419 */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-419"; path = "es-419.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		92EAE2E722D7BC9D0063AD2E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92EAE2E822D7BCCA0063AD2E /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		92EAE2E922D7BCE70063AD2E /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		92EAE2EA22D7BD570063AD2E /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		92EAE2EB22D7BD6E0063AD2E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		92F237602320CD4C00C8D1C5 /* BeesEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeesEmitterView.swift; sourceTree = "<group>"; };
+		92F2376A2322D01F00C8D1C5 /* ShipsEmitterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShipsEmitterView.swift; sourceTree = "<group>"; };
+		9ACBA92D63E2F132CDB6F4E1 /* Pods_KidsTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KidsTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		924EFF1021FB0B7E001F0346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5352A5B723F57E3A00C2BE3D /* iAd.framework in Frameworks */,
+				926D8F3B22C6230C00D1CF5D /* StoreKit.framework in Frameworks */,
+				0C74A6492C8FD0FA689A61A5 /* Pods_KidsTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9231FEE922DF3519000196CE /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				9231FEE522DEF6F8000196CE /* PaymentStruct.swift */,
+				53BD5A2A23D3918F00E8CA19 /* ParentViewController.swift */,
+				9231FEE722DF0DF8000196CE /* Payment+TVC.swift */,
+				926D8F3E22C6257E00D1CF5D /* IAPManager.swift */,
+				926D8F3C22C6244400D1CF5D /* IAPProduct.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		924EFF0A21FB0B7E001F0346 = {
+			isa = PBXGroup;
+			children = (
+				924EFF1521FB0B7E001F0346 /* KidsTimer */,
+				924EFF1421FB0B7E001F0346 /* Products */,
+				926D8F3922C6230C00D1CF5D /* Frameworks */,
+				E9613FF43D3A1B244DC9DFEC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		924EFF1421FB0B7E001F0346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				924EFF1321FB0B7E001F0346 /* KidsTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		924EFF1521FB0B7E001F0346 /* KidsTimer */ = {
+			isa = PBXGroup;
+			children = (
+				920B4E1F23CA1192008A86EC /* KidsTimer.entitlements */,
+				926D8F4022C723BE00D1CF5D /* Validation */,
+				924EFF1621FB0B7E001F0346 /* AppDelegate.swift */,
+				924EFF1821FB0B7E001F0346 /* TimerViewController.swift */,
+				929A1EAE23C5E85E0037E1A0 /* SpinnerViewController.swift */,
+				92BF95B323B535A200AF7F45 /* PlayTimerViewController.swift */,
+				9288E0E023C772A1006E54FA /* SubscriptionPages */,
+				92C1AB2223C4D0AE0006297B /* DateDifference.swift */,
+				534585F723D4DFAC008F255F /* ProductNumber.swift */,
+				92C1AB2423C4D1860006297B /* ModelController.swift */,
+				53BD5A2823D374B400E8CA19 /* MenuViewController.swift */,
+				92BF95A923B3842800AF7F45 /* Notifications.swift */,
+				539BAC6023D83DEE00621873 /* UserHandleControl.swift */,
+				92BF95A823B383FA00AF7F45 /* Onboarding */,
+				92595FA62305CD0800C9ABE0 /* +TVCHandlers.swift */,
+				9282C77A231ECDCA007D66B0 /* ScrollButtons+TVC.swift */,
+				929E2F89230455100031CF16 /* Tutorial+TVC.swift */,
+				92595FA42305BDE800C9ABE0 /* Control+TVC.swift */,
+				929E2F8B2305237A0031CF16 /* Views.swift */,
+				929E2F8723043E730031CF16 /* Styles+TVC.swift */,
+				925A399E22DCBC19008B0FBA /* Launch+TVC.swift */,
+				929E2F8523043B1A0031CF16 /* Buttons+TVC.swift */,
+				9231FEE922DF3519000196CE /* Payment */,
+				925A39A022DCC671008B0FBA /* CircleView.swift */,
+				925A39A422DCC74F008B0FBA /* UIV+Anchor.swift */,
+				925A39A222DCC6E7008B0FBA /* SticksView.swift */,
+				92595FAE2307D97800C9ABE0 /* New Group */,
+				92595FA823068BFA00C9ABE0 /* MyParticle.sks */,
+				9232C56D2203830E001DA61A /* TimerIndicatorView.swift */,
+				924EFF2021FB0B85001F0346 /* Assets.xcassets */,
+				926D8F4122C7246D00D1CF5D /* AppleIncRootCertificate.cer */,
+				92E2AAB7220A25A800CDBE8F /* porkys.regular.ttf */,
+				924EFF2521FB0B85001F0346 /* Info.plist */,
+				9224138722D3551D0028E1B5 /* Localizable.strings */,
+				929CF6D623C0F7310062A931 /* KidsTimer.xcdatamodel */,
+				92674A5922BCC51900275555 /* Music&Sounds */,
+			);
+			path = KidsTimer;
+			sourceTree = "<group>";
+		};
+		92595FAE2307D97800C9ABE0 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				92C5F77B22BE188200D5C3F1 /* CandyRainEmitterView.swift */,
+				539D6908241D1CAF004A37F5 /* GlassesRainEmitterView.swift */,
+				92595FAA230690BC00C9ABE0 /* CloudsEmitterView.swift */,
+				92F237602320CD4C00C8D1C5 /* BeesEmitterView.swift */,
+				92F2376A2322D01F00C8D1C5 /* ShipsEmitterView.swift */,
+				92595FAC2307070F00C9ABE0 /* StarsEmitterView.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		92674A5922BCC51900275555 /* Music&Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				539B11AC2886F11C00B5613C /* EndMinuteMusicSound.mp3 */,
+				539B11C72886F12000B5613C /* EndMinuteMusicSoundBees.mp3 */,
+				539B11B42886F11D00B5613C /* EndMinuteMusicSoundBoom.mp3 */,
+				539B11C92886F12000B5613C /* EndMinuteMusicSoundKing.mp3 */,
+				539B11BC2886F11E00B5613C /* EndMinuteMusicSoundMidnight.mp3 */,
+				539B11B32886F11D00B5613C /* EndMinuteMusicSoundSea.mp3 */,
+				539B11BA2886F11E00B5613C /* EndMinuteMusicSoundVideoGames.mp3 */,
+				539B11B22886F11D00B5613C /* EndTimeBoom.mp3 */,
+				539B11A72886F11C00B5613C /* EndTimeMusicSound.mp3 */,
+				539B11BB2886F11E00B5613C /* EndTimeMusicSoundBees.mp3 */,
+				539B11B52886F11D00B5613C /* EndTimeMusicSoundBoom.mp3 */,
+				539B11A32886F11B00B5613C /* EndTimeMusicSoundKing.mp3 */,
+				539B11BD2886F11E00B5613C /* EndTimeMusicSoundMidnight.mp3 */,
+				539B11B02886F11D00B5613C /* EndTimeMusicSoundSea.mp3 */,
+				539B11BF2886F11E00B5613C /* EndTimeMusicSoundVideoGames.mp3 */,
+				539B11AA2886F11C00B5613C /* HMM.mp3 */,
+				539B11B62886F11D00B5613C /* introBGSound.mp3 */,
+				539B11B12886F11D00B5613C /* LaunchFunSound.mp3 */,
+				539B11B92886F11E00B5613C /* MinuteLessSound.mp3 */,
+				539B11AB2886F11C00B5613C /* PlaySunSound.mp3 */,
+				539B11AF2886F11D00B5613C /* PlayTimerBGSoundBees.mp3 */,
+				539B11C52886F11F00B5613C /* PlayTimerBGSoundBoom.mp3 */,
+				539B11C42886F11F00B5613C /* PlayTimerBGSoundKing.mp3 */,
+				539B11BE2886F11E00B5613C /* PlayTimerBGSoundMidnight.mp3 */,
+				539B11C62886F11F00B5613C /* PlayTimerBGSoundRainbow.mp3 */,
+				539B11C02886F11E00B5613C /* PlayTimerBGSoundSea.mp3 */,
+				539B11B82886F11E00B5613C /* PlayTimerBGSoundToothBrash.mp3 */,
+				539B11A52886F11C00B5613C /* PlayTimerBGSoundVideoGames.mp3 */,
+				539B11C22886F11F00B5613C /* RainLight.mp3 */,
+				539B11C12886F11F00B5613C /* ResetBugel.mp3 */,
+				539B11AD2886F11C00B5613C /* ResetCloudSound.mp3 */,
+				539B11A82886F11C00B5613C /* ResetRainSound.mp3 */,
+				539B11C32886F11F00B5613C /* ResetSorokoput.mp3 */,
+				539B11C82886F12000B5613C /* TapNumberSound.mp3 */,
+				539B11A42886F11B00B5613C /* TapNumberSoundBoom.mp3 */,
+				539B11AE2886F11D00B5613C /* ToothBrashBGSound.mp3 */,
+				539B11B72886F11D00B5613C /* WashHandsBGSound.mp3 */,
+				539B11A92886F11C00B5613C /* YAMN.mp3 */,
+				539B11A62886F11C00B5613C /* YEAH.mp3 */,
+			);
+			path = "Music&Sounds";
+			sourceTree = "<group>";
+		};
+		926D8F3922C6230C00D1CF5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5352A5B623F57E3900C2BE3D /* iAd.framework */,
+				926D8F3A22C6230C00D1CF5D /* StoreKit.framework */,
+				9ACBA92D63E2F132CDB6F4E1 /* Pods_KidsTimer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		926D8F4022C723BE00D1CF5D /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				9290DE2522C7A67900D4385E /* pkcs7_union_accessors.c */,
+				9290DE2422C7A67900D4385E /* pkcs7_union_accessors.h */,
+				9290DE2122C7A47000D4385E /* KidsTimer-Bridging-Header.h */,
+				9290DE2722C7A6B000D4385E /* ReceiptValidator.swift */,
+			);
+			path = Validation;
+			sourceTree = "<group>";
+		};
+		9288E0E023C772A1006E54FA /* SubscriptionPages */ = {
+			isa = PBXGroup;
+			children = (
+				92AA96B023B8C2A600F9728F /* SubscriptionViewController.swift */,
+				9272107423BF6D7F0071933B /* SubscriptionPages.swift */,
+			);
+			path = SubscriptionPages;
+			sourceTree = "<group>";
+		};
+		92BF95A823B383FA00AF7F45 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				92BF95A623B3835900AF7F45 /* SwipingController.swift */,
+				92BF95A223B382C200AF7F45 /* Pages.swift */,
+				92BF95A423B382E900AF7F45 /* PageCell.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		E9613FF43D3A1B244DC9DFEC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12EB9350E75D8987A6410FD6 /* Pods-KidsTimer.debug.xcconfig */,
+				81A5A381F0FE0CD624EF2AF6 /* Pods-KidsTimer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		924EFF1221FB0B7E001F0346 /* KidsTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 924EFF2821FB0B85001F0346 /* Build configuration list for PBXNativeTarget "KidsTimer" */;
+			buildPhases = (
+				ADA68502E290811F955ABC93 /* [CP] Check Pods Manifest.lock */,
+				924EFF0F21FB0B7E001F0346 /* Sources */,
+				924EFF1021FB0B7E001F0346 /* Frameworks */,
+				924EFF1121FB0B7E001F0346 /* Resources */,
+				87FA1171ADC2027C6CA5CF5D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidsTimer;
+			productName = KidsTimer;
+			productReference = 924EFF1321FB0B7E001F0346 /* KidsTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		924EFF0B21FB0B7E001F0346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = denis;
+				TargetAttributes = {
+					924EFF1221FB0B7E001F0346 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 924EFF0E21FB0B7E001F0346 /* Build configuration list for PBXProject "KidsTimer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+				fr,
+				nl,
+				de,
+				"zh-Hant",
+				"pt-BR",
+				es,
+				"zh-Hans",
+				ko,
+				"es-419",
+			);
+			mainGroup = 924EFF0A21FB0B7E001F0346;
+			productRefGroup = 924EFF1421FB0B7E001F0346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				924EFF1221FB0B7E001F0346 /* KidsTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		924EFF1121FB0B7E001F0346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				539B11CA2886F12000B5613C /* EndTimeMusicSoundKing.mp3 in Resources */,
+				539B11D02886F12100B5613C /* YAMN.mp3 in Resources */,
+				539B11DC2886F12100B5613C /* EndTimeMusicSoundBoom.mp3 in Resources */,
+				539B11E42886F12100B5613C /* EndTimeMusicSoundMidnight.mp3 in Resources */,
+				539B11EE2886F12100B5613C /* EndMinuteMusicSoundBees.mp3 in Resources */,
+				539B11E22886F12100B5613C /* EndTimeMusicSoundBees.mp3 in Resources */,
+				539B11EC2886F12100B5613C /* PlayTimerBGSoundBoom.mp3 in Resources */,
+				539B11E52886F12100B5613C /* PlayTimerBGSoundMidnight.mp3 in Resources */,
+				539B11E32886F12100B5613C /* EndMinuteMusicSoundMidnight.mp3 in Resources */,
+				926D8F4222C724A000D1CF5D /* AppleIncRootCertificate.cer in Resources */,
+				539B11F02886F12100B5613C /* EndMinuteMusicSoundKing.mp3 in Resources */,
+				539B11E12886F12100B5613C /* EndMinuteMusicSoundVideoGames.mp3 in Resources */,
+				539B11D92886F12100B5613C /* EndTimeBoom.mp3 in Resources */,
+				539B11D62886F12100B5613C /* PlayTimerBGSoundBees.mp3 in Resources */,
+				539B11DB2886F12100B5613C /* EndMinuteMusicSoundBoom.mp3 in Resources */,
+				539B11ED2886F12100B5613C /* PlayTimerBGSoundRainbow.mp3 in Resources */,
+				539B11CB2886F12000B5613C /* TapNumberSoundBoom.mp3 in Resources */,
+				539B11EB2886F12100B5613C /* PlayTimerBGSoundKing.mp3 in Resources */,
+				92595FA923068BFA00C9ABE0 /* MyParticle.sks in Resources */,
+				9224138922D3551D0028E1B5 /* Localizable.strings in Resources */,
+				539B11DD2886F12100B5613C /* introBGSound.mp3 in Resources */,
+				539B11D72886F12100B5613C /* EndTimeMusicSoundSea.mp3 in Resources */,
+				924EFF2121FB0B85001F0346 /* Assets.xcassets in Resources */,
+				539B11D42886F12100B5613C /* ResetCloudSound.mp3 in Resources */,
+				539B11D12886F12100B5613C /* HMM.mp3 in Resources */,
+				539B11CD2886F12000B5613C /* YEAH.mp3 in Resources */,
+				539B11E92886F12100B5613C /* RainLight.mp3 in Resources */,
+				539B11DE2886F12100B5613C /* WashHandsBGSound.mp3 in Resources */,
+				539B11E72886F12100B5613C /* PlayTimerBGSoundSea.mp3 in Resources */,
+				539B11DA2886F12100B5613C /* EndMinuteMusicSoundSea.mp3 in Resources */,
+				539B11CE2886F12000B5613C /* EndTimeMusicSound.mp3 in Resources */,
+				539B11D52886F12100B5613C /* ToothBrashBGSound.mp3 in Resources */,
+				539B11E02886F12100B5613C /* MinuteLessSound.mp3 in Resources */,
+				539B11DF2886F12100B5613C /* PlayTimerBGSoundToothBrash.mp3 in Resources */,
+				539B11D82886F12100B5613C /* LaunchFunSound.mp3 in Resources */,
+				539B11D22886F12100B5613C /* PlaySunSound.mp3 in Resources */,
+				539B11EA2886F12100B5613C /* ResetSorokoput.mp3 in Resources */,
+				539B11EF2886F12100B5613C /* TapNumberSound.mp3 in Resources */,
+				539B11CC2886F12000B5613C /* PlayTimerBGSoundVideoGames.mp3 in Resources */,
+				539B11D32886F12100B5613C /* EndMinuteMusicSound.mp3 in Resources */,
+				539B11CF2886F12100B5613C /* ResetRainSound.mp3 in Resources */,
+				92E2AAB8220A25A900CDBE8F /* porkys.regular.ttf in Resources */,
+				539B11E62886F12100B5613C /* EndTimeMusicSoundVideoGames.mp3 in Resources */,
+				539B11E82886F12100B5613C /* ResetBugel.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		87FA1171ADC2027C6CA5CF5D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KidsTimer/Pods-KidsTimer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KidsTimer/Pods-KidsTimer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KidsTimer/Pods-KidsTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADA68502E290811F955ABC93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KidsTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		924EFF0F21FB0B7E001F0346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92BF95AA23B3842800AF7F45 /* Notifications.swift in Sources */,
+				9282C77B231ECDCC007D66B0 /* ScrollButtons+TVC.swift in Sources */,
+				9231FEE822DF0DF8000196CE /* Payment+TVC.swift in Sources */,
+				926D8F3F22C6257E00D1CF5D /* IAPManager.swift in Sources */,
+				9290DE2822C7A6B000D4385E /* ReceiptValidator.swift in Sources */,
+				92F237612320CD4C00C8D1C5 /* BeesEmitterView.swift in Sources */,
+				539BAC6123D83DEE00621873 /* UserHandleControl.swift in Sources */,
+				929E2F8623043B1A0031CF16 /* Buttons+TVC.swift in Sources */,
+				92BF95A523B382E900AF7F45 /* PageCell.swift in Sources */,
+				92BF95A323B382C200AF7F45 /* Pages.swift in Sources */,
+				92C5F77C22BE188300D5C3F1 /* CandyRainEmitterView.swift in Sources */,
+				92595FAB230690BC00C9ABE0 /* CloudsEmitterView.swift in Sources */,
+				92595FA52305BDE800C9ABE0 /* Control+TVC.swift in Sources */,
+				925A39A522DCC74F008B0FBA /* UIV+Anchor.swift in Sources */,
+				9290DE2622C7A67900D4385E /* pkcs7_union_accessors.c in Sources */,
+				92BF95B423B535A300AF7F45 /* PlayTimerViewController.swift in Sources */,
+				534585F823D4DFAC008F255F /* ProductNumber.swift in Sources */,
+				92595FAD2307070F00C9ABE0 /* StarsEmitterView.swift in Sources */,
+				929A1EAF23C5E85F0037E1A0 /* SpinnerViewController.swift in Sources */,
+				9231FEE622DEF6F8000196CE /* PaymentStruct.swift in Sources */,
+				924EFF1921FB0B7E001F0346 /* TimerViewController.swift in Sources */,
+				929E2F8823043E740031CF16 /* Styles+TVC.swift in Sources */,
+				929E2F8C2305237B0031CF16 /* Views.swift in Sources */,
+				539D6909241D1CAF004A37F5 /* GlassesRainEmitterView.swift in Sources */,
+				92C1AB2323C4D0AE0006297B /* DateDifference.swift in Sources */,
+				53BD5A2B23D3918F00E8CA19 /* ParentViewController.swift in Sources */,
+				925A39A122DCC671008B0FBA /* CircleView.swift in Sources */,
+				925A39A322DCC6E7008B0FBA /* SticksView.swift in Sources */,
+				9232C56E2203830E001DA61A /* TimerIndicatorView.swift in Sources */,
+				925A399F22DCBC19008B0FBA /* Launch+TVC.swift in Sources */,
+				53BD5A2923D374B400E8CA19 /* MenuViewController.swift in Sources */,
+				92F2376B2322D01F00C8D1C5 /* ShipsEmitterView.swift in Sources */,
+				92C1AB2523C4D1860006297B /* ModelController.swift in Sources */,
+				926D8F3D22C6244400D1CF5D /* IAPProduct.swift in Sources */,
+				924EFF1721FB0B7E001F0346 /* AppDelegate.swift in Sources */,
+				92BF95A723B3835900AF7F45 /* SwipingController.swift in Sources */,
+				92595FA72305CD0800C9ABE0 /* +TVCHandlers.swift in Sources */,
+				9272107523BF6D7F0071933B /* SubscriptionPages.swift in Sources */,
+				92AA96B123B8C2A600F9728F /* SubscriptionViewController.swift in Sources */,
+				929E2F8A230455100031CF16 /* Tutorial+TVC.swift in Sources */,
+				929CF6D723C0F7320062A931 /* KidsTimer.xcdatamodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9224138722D3551D0028E1B5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9224138822D3551D0028E1B5 /* ru */,
+				9224138C22D3B2340028E1B5 /* fr */,
+				921A618222D46C3B00C851E8 /* nl */,
+				92EAE2E522D7829E0063AD2E /* ko */,
+				92EAE2E622D782C00063AD2E /* es-419 */,
+				92EAE2E722D7BC9D0063AD2E /* de */,
+				92EAE2E822D7BCCA0063AD2E /* es */,
+				92EAE2E922D7BCE70063AD2E /* pt-BR */,
+				92EAE2EA22D7BD570063AD2E /* zh-Hant */,
+				92EAE2EB22D7BD6E0063AD2E /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		924EFF2621FB0B85001F0346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		924EFF2721FB0B85001F0346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		924EFF2921FB0B85001F0346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12EB9350E75D8987A6410FD6 /* Pods-KidsTimer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = KidsTimer/KidsTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 41;
+				DEVELOPMENT_TEAM = MVJ86Q9VWR;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = KidsTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.10;
+				PRODUCT_BUNDLE_IDENTIFIER = SLON.KidsTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KidsTimer/Validation/KidsTimer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		924EFF2A21FB0B85001F0346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81A5A381F0FE0CD624EF2AF6 /* Pods-KidsTimer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = KidsTimer/KidsTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 41;
+				DEVELOPMENT_TEAM = MVJ86Q9VWR;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = KidsTimer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.10;
+				PRODUCT_BUNDLE_IDENTIFIER = SLON.KidsTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "KidsTimer/Validation/KidsTimer-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		924EFF0E21FB0B7E001F0346 /* Build configuration list for PBXProject "KidsTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924EFF2621FB0B85001F0346 /* Debug */,
+				924EFF2721FB0B85001F0346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		924EFF2821FB0B85001F0346 /* Build configuration list for PBXNativeTarget "KidsTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				924EFF2921FB0B85001F0346 /* Debug */,
+				924EFF2A21FB0B85001F0346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 924EFF0B21FB0B7E001F0346 /* Project object */;
+}

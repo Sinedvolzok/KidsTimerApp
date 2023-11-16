@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="KidsTimer/en.lproj/InfoPlist.strings" datatype="plaintext" source-language="en" target-language="zh-Hans">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>KidsTimer</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>KidsTimer</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="KidsTimer/en.lproj/Localizable.strings" datatype="plaintext" source-language="en" target-language="zh-Hans">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="10.2.1" build-num="10E1001"/>
+    </header>
+    <body>
+      <trans-unit id=" To continue, enter&#10; your ">
+        <source> To continue, enter
+ your </source>
+        <target>要继续，请输入您的出生年份：</target>
+        <note>textToContinueEnterYour</note>
+      </trans-unit>
+      <trans-unit id="Buy">
+        <source>Buy</source>
+        <target>购买</target>
+        <note>buyTextButton</note>
+      </trans-unit>
+      <trans-unit id="We do not store this data">
+        <source>We do not store this data</source>
+        <target>我们不存储这些数据</target>
+        <note>textWeDoNotStoreThisData</note>
+      </trans-unit>
+      <trans-unit id="birth year:">
+        <source>birth year:</source>
+        <target></target>
+        <note>textBirthYear</note>
+      </trans-unit>
+      <trans-unit id="restore">
+        <source>restore</source>
+        <target>恢复</target>
+        <note>restoreTextButton</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
